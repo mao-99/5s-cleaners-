@@ -1,5 +1,5 @@
 import Head from 'next/head';
-import Header from '../components/header';
+import Navbar from '../components/navbar';
 import Footer from '../components/footer';
 import Review from '../components/reviews';
 
@@ -8,10 +8,8 @@ export default function Home() {
     <div id="page-wrapper">
       <Head>
         <title>5-S Cleaners 5UP+NEXT</title>
-        <body className="is-preload" />
       </Head>
-      <Header></Header>
-      <Review></Review>
+      <Navbar></Navbar>
       <Footer></Footer>
     </div>
   )

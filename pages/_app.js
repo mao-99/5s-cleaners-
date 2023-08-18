@@ -13,7 +13,7 @@ export default function App({ Component, pageProps }) {
     useEffect(() => {
         // Load Google Maps API script here
         const script = document.createElement('script');
-        script.src = `https://maps.googleapis.com/maps/api/js?key=AIzaSyAx0A3PJLlnOZlxt1t4L_-wVUOColABUvQ&libraries=places&callback=Function.prototype`;
+        script.src = `https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=Function.prototype`;
         script.async = true;
         script.defer = true;
         document.head.appendChild(script);

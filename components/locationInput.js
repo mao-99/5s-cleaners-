@@ -1,4 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React, { useState } from 'react';
 import PlacesAutocomplete from 'react-places-autocomplete';
 import {geocodeByAddress,geocodeByPlaceId,getLatLng,} from 'react-places-autocomplete';
 
@@ -6,7 +6,7 @@ export default function LocationInput() {
     
 
     const handleChange = (e) => {
-        console.log(address)
+        console.log(e.target.value)
     }
 
 

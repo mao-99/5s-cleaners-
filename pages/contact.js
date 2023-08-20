@@ -1,15 +1,17 @@
 import Head from 'next/head';
 import Navbar from '../components/navbar';
 import Footer from '../components/footer';
-import Review from '../components/reviews';
+import ContactForm from '../components/contactForm';
 
 export default function Home() {
+  const pageTitle = 'Contact Us';
   return (
     <div id="page-wrapper">
       <Head>
-        <title>5-S Cleaners 5UP+NEXT</title>
+        <title>{pageTitle}</title>
       </Head>
       <Navbar></Navbar>
+      <ContactForm></ContactForm>
       <Footer></Footer>
     </div>
   )

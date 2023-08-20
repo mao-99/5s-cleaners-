@@ -4,10 +4,11 @@ import Footer from '../components/footer';
 import Review from '../components/reviews';
 
 export default function Home() {
+  const pageTitle = '5S Cleaners';
   return (
     <div id="page-wrapper">
       <Head>
-        <title>5-S Cleaners 5UP+NEXT</title>
+        <title>{pageTitle}</title>
         <body className="is-preload" />
       </Head>
       <Header></Header>

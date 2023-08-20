@@ -5,10 +5,11 @@ import ServiceCards from '../components/serviceCards';
 import BookingForm from '../components/bookNow';
 
 export default function Home() {
+  const pageTitle = 'Services And Bookings';
   return (
     <div id="page-wrapper">
       <Head>
-        <title>5-S Cleaners 5UP+NEXT</title>
+        <title>{pageTitle}</title>
         <body className="no-sidebar is-preload" />
       </Head>
       <Navbar></Navbar>

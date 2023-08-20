@@ -5,7 +5,7 @@ export default function Navbar(){
     const router = useRouter();
     return(
         <section id="header">
-						<h1><a href="index.html">5-S Cleaners</a></h1>
+						<h1 className="navbarHeader"><Link href="/index">5-S Cleaners</Link></h1>
 
 						<nav id="nav">
 							<ul>

@@ -1,9 +1,10 @@
 import Link from "next/link";
+import styles from "./indexHeader.module.css";
 
 export default function Header(){
     return(
         <section id="header">
-						<h1><a href="index.html">5-S Cleaners</a></h1>
+						<h1 className={styles.navbarHeader}><Link href="/">5-S Cleaners</Link></h1>
 
 						<nav id="nav">
 							<ul>
